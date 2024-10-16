@@ -22,6 +22,7 @@ module tt_um_example (
   assign uio_oe  = 0;
 
   // List all unused inputs to prevent warnings
+  // adding my comments-- charan
   wire _unused = &{ena, clk, rst_n, 1'b0};
 
 endmodule
